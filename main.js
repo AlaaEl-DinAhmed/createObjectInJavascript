@@ -2,7 +2,6 @@
     Creating object using Object.create()
 */
 const personObj = Object.create({})
-// console.log(personObj)
 personObj.fname = 'Alaa';
 personObj.lname = 'Ahmed';
 personObj.fullName = function () {
